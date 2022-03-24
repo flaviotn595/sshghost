@@ -2,7 +2,7 @@
 #====================================================
 #	SCRIPT: CONEXÃO KURUMI SSH ❤️🔥
 #====================================================
-_lvk=$(wget -qO-https://raw.githubusercontent.com/Proverbiosx/Gerador/main/versao)
+_lvk=$(wget -qO-https://raw.githubusercontent.com/flaviot595/sshghost/main/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
 [[ "$IP" != "$IP2" ]] && ipdovps="$IP2" || ipdovps="$IP"
